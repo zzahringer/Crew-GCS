@@ -1,0 +1,7930 @@
+{
+	"type": "skill_list",
+	"version": 2,
+	"id": "ac612bd9-d324-4a29-bd1f-6e175cfce4f0",
+	"rows": [
+		{
+			"type": "skill",
+			"id": "0b19875c-94ad-4916-a37e-10c04e4d4cb8",
+			"name": "Accounting",
+			"reference": "B174",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Finance",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Statistics",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "32182555-7d96-421c-9269-50fb641815f7",
+			"name": "Acrobatics",
+			"reference": "B174,MA54",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Aerobatics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Aquabatics",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b6976e07-e046-48e6-8a50-5b012865bc67",
+			"name": "Acting",
+			"reference": "B174",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Public Speaking",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "792b73c8-8981-41a1-aa0e-61b76a929a0b",
+			"name": "Administration",
+			"reference": "B174",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -3
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "9e0611c5-ff4f-4876-a235-56943a6f4a9c",
+			"name": "Aerobatics",
+			"reference": "B174",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Acrobatics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Aquabatics",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6aa52b34-9c9b-45b6-98a9-04481e0e8064",
+			"name": "Alchemy",
+			"reference": "B174",
+			"tech_level": "",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"categories": [
+				"Natural Science",
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c04b8684-ec86-4953-ad93-f90b82b15a77",
+			"name": "Animal Handling",
+			"reference": "B175",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "0b59afb7-ec01-4a1a-982e-452fd73cef60",
+			"name": "Anthropology",
+			"reference": "B175",
+			"specialization": "@Species@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Paleontology",
+					"specialization": "Paleoanthropology",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Sociology",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d01b5211-fa61-482f-80c9-3830421aed3d",
+			"name": "Aquabatics",
+			"reference": "B174",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Acrobatics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Aerobatics",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b8ecbc30-7443-4b99-942d-1009f814ab15",
+			"name": "Archaeology",
+			"reference": "B176",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "140058b1-52e2-4dd8-8425-5886b9769752",
+			"name": "Architecture",
+			"reference": "B176",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Civil",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Design/Invention"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6ff23083-10ad-4a20-a0dc-f4cfed9871ef",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Barony, County, Duchy, or Small Nation@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "07ed9956-c59c-49f8-aaee-00bf8e927bd7",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Barony, County, Duchy, or Small Nation@; Lived there",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "39b17d31-c94d-43d9-9aed-afcbdac3991c",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@City@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "All important businesses, streets, citizens, leaders, etc.",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e1d154b5-9ef5-41a6-9c02-4e6164bd08ae",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@City@; Lived there",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "All important businesses, streets, citizens, leaders, etc.",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "77119804-7c8d-4b06-94c2-58f7d6874b67",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Large Nation@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2143453c-064d-4bc0-a131-94b7c7cc942a",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Large Nation@; Lived there",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "Location of its major cities and important sites; awareness of its major customs, ethnic groups, and languages (but not necessarily expertise); names of folk of Status 6+; and a general understanding of the economic and political situation",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "27768e6a-12bb-4b3c-8f4b-6227edf93d30",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Rural Area@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b5907ab0-0e18-4a4d-81c5-264b51b2b987",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Rural Area@; Lived there",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "The inhabitants, trails, streams, hiding places, ambush sites, flora, and fauna of a few hundred acres",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f5ca1e73-9e21-4312-8c59-146ccfc6774f",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Urban Neighborhood@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "The residents and buildings of a few city blocks",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "eadc2217-83e3-478e-b75d-ec97e3e796e3",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Urban Neighborhood@; Lived there",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "The residents and buildings of a few city blocks",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f809a572-ffab-4f9e-8177-1e546286f1e4",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Village or Town@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f3a78bc8-0be2-46f5-9c08-1d53d2f6008d",
+			"name": "Area Knowledge",
+			"reference": "B176",
+			"specialization": "@Village or Town@; Lived there",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"notes": "All important citizens and businesses, and most unimportant ones; all public buildings and most houses",
+			"categories": [
+				"Everyman",
+				"Knowledge"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "9db45cca-ca57-474b-b4e0-07591bf7b242",
+			"name": "Arm Lock",
+			"reference": "B230,MA65",
+			"difficulty": "a",
+			"points": 1,
+			"limit": 4,
+			"default": {
+				"type": "skill",
+				"name": "Wrestling"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b46fdf7f-c80e-4970-888c-394f2150279d",
+			"name": "Armoury",
+			"reference": "B178",
+			"specialization": "@Armor type@",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Battlesuits",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Military",
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c37e7c43-39f1-4333-908d-7b26e9886f35",
+			"name": "Armoury",
+			"reference": "B178",
+			"specialization": "Heavy Weapons",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Heavy Weapons",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Military",
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3488e869-3c20-43bd-8e5e-4b78f76c8489",
+			"name": "Armoury",
+			"reference": "B178",
+			"specialization": "Melee Weapons",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Engineer",
+					"specialization": "Melee Weapons",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Military",
+				"Repair/Maintainance"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "70aa6aa4-a975-4203-803d-1838fcdea704",
+			"name": "Artillery",
+			"reference": "B178",
+			"specialization": "@Weapon type@",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ac9352a5-23f3-40b9-ad35-183f58d27f0d",
+			"name": "Artillery",
+			"reference": "B178",
+			"specialization": "Catapult",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a8aacbca-be47-4ae4-9ad3-8a0f9fa60fae",
+			"name": "Artist",
+			"reference": "B179",
+			"specialization": "@Art@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Artist",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "46275d4a-8023-429c-9a18-dd491d4b8877",
+			"name": "Astronomy",
+			"reference": "B179",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Natural Science"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "223cc255-e3fb-482a-b85f-4accc8ec0c3c",
+			"name": "Autohypnosis",
+			"reference": "B179,MA54",
+			"difficulty": "will/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Meditation",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b731e437-9473-4213-87e6-5cd4d8089509",
+			"name": "Axe/Mace",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Flail",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "0905aa4c-c7e9-4063-af1f-d35c4c3612b2",
+			"name": "Bartender",
+			"reference": "B216",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Carousing",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Professional",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "66a0bdd1-2571-4362-8770-0869c921357a",
+			"name": "Blind Fighting",
+			"reference": "B180,MA54",
+			"difficulty": "per/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "92e952fd-0292-4174-b642-4d84ffbba4ea",
+			"name": "Blowpipe",
+			"reference": "B180",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "9f6198ba-16a6-43b0-bd83-93491952cf70",
+			"name": "Boating",
+			"reference": "B180",
+			"specialization": "@Boat class@",
+			"tech_level": "",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Motorboat",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Sailboat",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Unpowered",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "9bb604a5-d0a5-4802-9d75-b07a2631e5ea",
+			"name": "Body Control",
+			"reference": "B181,MA54",
+			"difficulty": "ht/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "meditation"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "breath control"
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ad598b51-2492-47af-9782-3968b3a373b0",
+			"name": "Body Language",
+			"reference": "B181",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Detect Lies",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d1ce0b34-ba63-4e1e-bc76-648a6dcb3edc",
+			"name": "Body Sense",
+			"reference": "B181",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Acrobatics",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "bf665f26-da86-41c7-8870-0018a7efda71",
+			"name": "Bolas",
+			"reference": "B181",
+			"difficulty": "dx/a",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "09212f74-efd4-4772-ac45-d96f8871da09",
+			"name": "Bow",
+			"reference": "B182",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "084e5fcf-495c-4f28-8c7b-c27a686daa78",
+			"name": "Boxing",
+			"reference": "B182,MA55",
+			"difficulty": "dx/a",
+			"points": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Boxing"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					}
+				},
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Boxing"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "118d7fb5-60f6-4814-b556-0e40ceb98509",
+			"name": "Brawling",
+			"reference": "B182,MA55",
+			"difficulty": "dx/e",
+			"points": 1,
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Brawling"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					}
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4eab54c9-2090-44a5-ab4e-b193ec4b8e59",
+			"name": "Breaking Blow",
+			"reference": "B182,MA55",
+			"difficulty": "iq/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6c7ea0fd-d526-43f2-8edc-4bafbba3bed3",
+			"name": "Breath Control",
+			"reference": "B182",
+			"difficulty": "ht/h",
+			"points": 1,
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7209493f-bf1e-4dd8-868e-3175aa4da03b",
+			"name": "Broadsword",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Sword",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "45a84a70-bb3b-4a87-ba61-ae50c683cae3",
+			"name": "Camouflage",
+			"reference": "B183",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Military",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3bedf94c-448a-470e-a185-3096f31481cf",
+			"name": "Captivate",
+			"reference": "B191",
+			"difficulty": "will/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "suggest"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "public speaking"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "charisma"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2b18842b-4ab6-4d08-abad-310d5d009615",
+			"name": "Carousing",
+			"reference": "B183",
+			"difficulty": "ht/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8c4da7e8-49c2-4c56-b0a4-d32730539f88",
+			"name": "Carpentry",
+			"reference": "B183",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "99e53990-d9f5-47ba-a303-5d2d6096f6ab",
+			"name": "Cartography",
+			"reference": "B183",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Surveying",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration",
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "ae05f0de-f174-41aa-b425-bd6025f89431",
+			"name": "Choke Hold",
+			"reference": "B230,MA69",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Wrestling",
+				"modifier": -3
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Wrestling"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "22369a4d-a854-4b76-a153-849cdb9b1d8c",
+			"name": "Climbing",
+			"reference": "B183",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic",
+				"Criminal/Street",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6ca543b3-4359-4a15-a9ce-3d6506d50519",
+			"name": "Cloak",
+			"reference": "B184",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Net",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shield",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a68939bf-db71-4913-9230-f97f3c162914",
+			"name": "Combat Art",
+			"reference": "B184,MA55",
+			"specialization": "@Average Skill@",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "@Average Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Combat Sport",
+					"specialization": "@Average Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d268272f-ea9e-4ac9-8ded-b73d568157c2",
+			"name": "Combat Art",
+			"reference": "B184,MA55",
+			"specialization": "@Easy Skill@",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "@Easy Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Combat Sport",
+					"specialization": "@Easy Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "070bfa42-48b9-46e8-b7a1-8d27dffda4f0",
+			"name": "Combat Art",
+			"reference": "B184,MA55",
+			"specialization": "@Hard Skill@",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "@Hard Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Combat Sport",
+					"specialization": "@Hard Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cca0fbc7-a43b-47ac-ba9a-4ecfd769b0e3",
+			"name": "Combat Sport",
+			"reference": "B184,MA55",
+			"specialization": "@Average Skill@",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "@Average Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Combat Art",
+					"specialization": "@Average Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c7f0f59a-fa09-4ec3-9559-4ca4087e978b",
+			"name": "Combat Sport",
+			"reference": "B184,MA55",
+			"specialization": "@Easy Skill@",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "@Easy Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Combat Art",
+					"specialization": "@Easy Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b21eecc0-2675-460c-87d9-06f020d578cd",
+			"name": "Combat Sport",
+			"reference": "B184,MA55",
+			"specialization": "@Hard Skill@",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "@Hard Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Combat Art",
+					"specialization": "@Hard Skill@",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a47c8d2f-4d99-4f63-abc6-f122081bef30",
+			"name": "Connoisseur",
+			"reference": "B185,MA56",
+			"specialization": "@Subject@",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "14715375-3bfe-46a1-9f8b-d9e77d776271",
+			"name": "Cooking",
+			"reference": "B185",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Housekeeping",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Everyman"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c1725cd1-2b68-420b-8d80-deb0274d1103",
+			"name": "Cooking",
+			"reference": "B185",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Housekeeping",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Everyman"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b6dc7002-513c-4068-be02-249594a64700",
+			"name": "Counterfeiting",
+			"reference": "B185",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Forgery",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "07c74999-e4b1-41e3-bd7d-3f4d08019167",
+			"name": "Crossbow",
+			"reference": "B186",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "efb87746-5465-4e77-83ad-51affa86385b",
+			"name": "Cryptography",
+			"reference": "B186",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Cryptology",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Military",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4fb8f1b5-e99c-4065-965b-7671f39308ba",
+			"name": "Current Affairs",
+			"reference": "B186",
+			"specialization": "@Subject@",
+			"tech_level": "",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Research",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Current Affairs",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Business",
+				"Everyman",
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ab25a5d4-4ef3-4ce3-80b8-16f775442d02",
+			"name": "Dancing",
+			"reference": "B187",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7c7fb6ed-6dcf-48f1-b407-7d258b2f86b9",
+			"name": "Detect Lies",
+			"reference": "B187",
+			"difficulty": "per/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Body Language",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "87d76daf-7dc4-4fca-abd1-a0fb889d5db4",
+			"name": "Diagnosis",
+			"reference": "B187",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -8
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Medical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a2ccaa77-4b2d-4f0a-8007-09a48ff98e8a",
+			"name": "Diplomacy",
+			"reference": "B187",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "4ed27b08-c5f6-4174-9aaf-968dc0324e41",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed or Melee Weapon Skill@"
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Unarmed or Melee Weapon Skill@"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "3dc6e608-e766-4da3-99bb-d69dab9bef77",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "Brawling"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "fac0302c-83fb-4426-92a7-725c1849acf7",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "d21b408f-045e-4c90-8e5c-42c8b141b261",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "Knife"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "7f34b1bb-b290-4aff-a9ad-45a087c992f8",
+			"name": "Disarming",
+			"reference": "B230,MA70",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d5580aec-c3d3-44e8-b800-e749cd3e48e5",
+			"name": "Disguise",
+			"reference": "B187",
+			"specialization": "@Specialty@",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Makeup",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "aac3f5b3-2beb-4ff7-82c9-4efbd33cdbba",
+			"name": "Dreaming",
+			"reference": "B188",
+			"difficulty": "will/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "729242cd-d49e-4784-a57a-f739328c0602",
+			"name": "Dropping",
+			"reference": "B189",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Throwing",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "73fefcff-59dc-4dd4-a138-257917caae96",
+			"name": "Dual-Weapon Attack",
+			"reference": "B230,MA83",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword",
+				"modifier": -4
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "d94ad30e-4355-4880-95fd-03643a755b45",
+			"name": "Dual-Weapon Attack",
+			"reference": "B230,MA83",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -4
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "fdfeb318-0b96-442d-8b08-68ac2d6dbb43",
+			"name": "Dual-Weapon Attack",
+			"reference": "B230,MA83",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword",
+				"modifier": -4
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "05819d74-a33f-44bd-bd63-488c8aa60ba9",
+			"name": "Economics",
+			"reference": "B189",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Finance",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Market Analysis",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business",
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "05f78724-7958-4e0f-81fd-83a19a82b0ee",
+			"name": "Elbow Strike",
+			"reference": "B230,MA71",
+			"difficulty": "a",
+			"points": 1,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Brawling"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4f266052-e9d3-420f-a15e-0980822c4208",
+			"name": "Engineer",
+			"reference": "B190",
+			"specialization": "@Field of expertise@",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"when_tl": {
+					"compare": "at_least",
+					"qualifier": 5
+				},
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "mathematics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "applied"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Armoury",
+					"specialization": "Heavy Weapons",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Design/Invention",
+				"Engineer"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "aa905700-4f65-426d-a7d4-bc08cdf57eef",
+			"name": "Enthrallment",
+			"reference": "B191",
+			"difficulty": "will/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "charisma"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "public speaking"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7d8b227a-8855-4324-ad7c-af72935135a0",
+			"name": "Erotic Art",
+			"reference": "B192",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acrobatics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b2292cc3-c339-4f49-94a4-683aa73f3395",
+			"name": "Escape",
+			"reference": "B192",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c1fafcb1-9274-4ec8-bd5b-63cfedbc2531",
+			"name": "Esoteric Medicine",
+			"reference": "B192,MA56",
+			"difficulty": "per/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Esoteric",
+				"Medical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cafacffa-037c-4a10-a505-5b92452b07ec",
+			"name": "Exorcism",
+			"reference": "B193",
+			"difficulty": "will/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Religious Ritual",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Ritual Magic",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Theology",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "1734a3ba-0539-457b-a3c7-86feaf6e71db",
+			"name": "Falconry",
+			"reference": "B194",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"specialization": "Raptors",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a701137d-89a1-4085-80ae-25bda2eea947",
+			"name": "Farming",
+			"reference": "B194",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Biology",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Gardening",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Plant"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "daf5af60-1ccd-48ba-8c90-32297232750f",
+			"name": "Fast-Draw",
+			"reference": "B194,MA56",
+			"specialization": "Arrow",
+			"difficulty": "dx/e",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c249c2b4-7444-493f-9b47-c41676b6361f",
+			"name": "Fast-Draw",
+			"reference": "B194,MA56",
+			"specialization": "Knife",
+			"difficulty": "dx/e",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "5b034565-1ea8-4c20-8e0b-e102db835441",
+			"name": "Fast-Draw",
+			"reference": "B194,MA56",
+			"specialization": "Sword",
+			"difficulty": "dx/e",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "19503f48-0250-46e1-a97f-4974b02325c6",
+			"name": "Fast-Draw",
+			"reference": "B194,MA56",
+			"specialization": "Two-Handed Sword",
+			"difficulty": "dx/e",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "97fcc553-7686-4ed5-992e-b8a2ea7c3965",
+			"name": "Fast-Draw",
+			"reference": "B194,MA56",
+			"specialization": "Ammo",
+			"tech_level": "",
+			"difficulty": "dx/e",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2bffbe24-6287-46a9-8976-02bc2d121922",
+			"name": "Fast-Talk",
+			"reference": "B195",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "76eca61c-7b78-4889-b3a8-a465a9f02c9d",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed or Melee Weapon Skill@"
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Unarmed or Melee Weapon Skill@"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "38364307-3bce-4bf9-9e6a-7a529ea4c7d7",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "skill",
+				"name": "Brawling"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "cbce972e-b64c-41af-8c65-744b59f082bc",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "7d934da4-3791-4107-8f93-11b3c7ce170b",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "skill",
+				"name": "Knife"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "dafa20e8-ca0e-44a9-b7ca-4971f5adf79c",
+			"name": "Feint",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 4,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8340262f-b33d-449b-8528-c81c98900fb9",
+			"name": "Filch",
+			"reference": "B195",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Pickpocket",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "12bafab9-6de3-4674-b40b-5ece5f69fb07",
+			"name": "Finance",
+			"reference": "B195",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Accounting",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Economics",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "6012e074-91d0-4474-adbe-386bb75d3dfa",
+			"name": "Finger Lock",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Arm Lock",
+				"modifier": -3
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6a5fe2a6-97cb-4a8a-b38e-e937c3a44651",
+			"name": "Fire Eating",
+			"reference": "B195",
+			"difficulty": "dx/a",
+			"points": 1,
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c595e6c5-91ae-4760-bd03-234537cecefd",
+			"name": "First Aid",
+			"reference": "B195",
+			"tech_level": "",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Esoteric Medicine"
+				},
+				{
+					"type": "skill",
+					"name": "Physician"
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Medical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cb3c2d07-807c-432e-a6c9-d4b66d508587",
+			"name": "Fishing",
+			"reference": "B195",
+			"difficulty": "per/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c10c3c0a-e510-4f38-95a9-fcf086ef5c55",
+			"name": "Flail",
+			"reference": "B208",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Axe/Mace",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Flail",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "dbd7bf59-7a0e-45dd-9b11-b36f1c3f1d6f",
+			"name": "Flying Leap",
+			"reference": "B196,MA57",
+			"difficulty": "iq/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "weapon master"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "trained by a master"
+								}
+							}
+						]
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "power blow"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "jumping"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3645e131-8144-42c8-b0f7-c84410d173e0",
+			"name": "Forced Entry",
+			"reference": "B196",
+			"difficulty": "dx/e",
+			"points": 1,
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "251ff3bd-7fdb-45f7-b405-9af3d6f68b0a",
+			"name": "Forensics",
+			"reference": "B196",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Criminology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Police"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "470b6c7e-62bd-473f-8117-40c7c3113f98",
+			"name": "Forgery",
+			"reference": "B196",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Counterfeiting",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e37a5f69-bb33-4bcf-a728-d02d375e3086",
+			"name": "Fortune-Telling",
+			"reference": "B196",
+			"specialization": "Astrology",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Fast-Talk",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Occultism",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2aa07bed-a017-4b19-9108-8ed746d9ff1e",
+			"name": "Fortune-Telling",
+			"reference": "B196",
+			"specialization": "Augury",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Fast-Talk",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Occultism",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "74c82126-610d-448e-b9c9-64b56adf1a8b",
+			"name": "Fortune-Telling",
+			"reference": "B196",
+			"specialization": "Crystal Gazing",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Fast-Talk",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Occultism",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7e487fe5-23b1-4c78-9f28-03e80bce017e",
+			"name": "Fortune-Telling",
+			"reference": "B196",
+			"specialization": "Palmistry",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Fast-Talk",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Occultism",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cc1018bc-521f-4f05-b9a4-3f3ffb26a515",
+			"name": "Fortune-Telling",
+			"reference": "B196",
+			"specialization": "Tarot",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Fast-Talk",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Occultism",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "fc4dfb91-24fa-4f49-b6d4-b2911c5214a4",
+			"name": "Forward Observer",
+			"reference": "B196",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Artillery",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Military"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "5179ce87-7906-4d7d-bdff-cff9272b7c62",
+			"name": "Free Fall",
+			"reference": "B197",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e761a1b1-c082-4d29-9654-98ff32a15725",
+			"name": "Freight Handling",
+			"reference": "B197",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Technical",
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e64b1bdb-e56d-4f1f-aa9b-34a8bad4a254",
+			"name": "Gambling",
+			"reference": "B197",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Statistics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7d6f0e5a-27e6-4fd3-b83f-5c1180f649ba",
+			"name": "Games",
+			"reference": "B197,MA57",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "86ce7129-2f09-46dd-9531-707f7b1bfdfa",
+			"name": "Gardening",
+			"reference": "B197",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Farming",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Plant"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2e00dfbb-df83-4f7f-96cf-f51a6d2041e3",
+			"name": "Garrote",
+			"reference": "B197",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "122dd47d-abb5-45a4-af2c-6487e0aa05ff",
+			"name": "Geography",
+			"reference": "B198",
+			"specialization": "Political",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Economics",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "145a4a09-4a73-4b22-8cb8-7cda3f8552e8",
+			"name": "Geography",
+			"reference": "B198",
+			"specialization": "Regional",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Area Knowledge",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Geography",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "425464f6-e43f-404c-aff4-ace61acbb556",
+			"name": "Gesture",
+			"reference": "B198",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "134abd0d-c5ac-442e-985b-fd853cd3c62b",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "@Combat Skill@",
+				"modifier": -4
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "@Combat Skill@"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "b12e28d8-2232-4d9a-9c7a-e5484ce906cb",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "cb5857b6-a6bd-4e3f-8733-8d4961d4f192",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "8cfc5138-94f0-4c01-b5f4-35b5762399ad",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "631d4d0a-e2fd-4748-896c-ac7c742cf627",
+			"name": "Ground Fighting",
+			"reference": "B231,MA73",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "bde1dc82-cdd2-46df-8a0a-a97c9b181004",
+			"name": "Group Performance",
+			"reference": "B198,MA57",
+			"specialization": "@Art@",
+			"difficulty": "iq/a",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "diplomacy"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "intimidation"
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "leadership"
+								}
+							}
+						]
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Dancing",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f708cc5f-ca45-45d7-8874-11477ae9dd26",
+			"name": "Gunner",
+			"reference": "B198",
+			"specialization": "@Gun class@",
+			"tech_level": "",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Gunner",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cd7240bf-ed5e-49d0-a7a4-986d078501fd",
+			"name": "Gunner",
+			"reference": "B198",
+			"specialization": "Catapult",
+			"tech_level": "",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Gunner",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a1fecc2b-5d76-451d-ab92-8e723a380b1e",
+			"name": "Heraldry",
+			"reference": "B199",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Savoir-Faire",
+					"specialization": "High Society",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ca22656e-b201-4916-93b3-fc8fe3e71109",
+			"name": "Herb Lore",
+			"reference": "B199",
+			"tech_level": "",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "contains",
+							"qualifier": "naturalist"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Plant"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "5a12376f-18ed-4698-8c8c-ad3478da911a",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"specialization": "@Subject@",
+			"difficulty": "iq/a",
+			"points": 1,
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d1c8b0a9-5f69-4a34-8e4a-e2ca4ec3887c",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"specialization": "Conspiracies",
+			"difficulty": "iq/a",
+			"points": 1,
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7c7b916e-232f-4cda-80d9-aa44774a5a95",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"specialization": "Demon Lore",
+			"difficulty": "iq/a",
+			"points": 1,
+			"categories": [
+				"Knowledge",
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ca25a073-12e5-4bfa-9820-f05948067318",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"specialization": "Faerie Lore",
+			"difficulty": "iq/a",
+			"points": 1,
+			"categories": [
+				"Knowledge",
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2403655b-15e0-44a7-99de-2e194a0891a8",
+			"name": "Hidden Lore",
+			"reference": "B199,MA57",
+			"specialization": "Spirit Lore",
+			"difficulty": "iq/a",
+			"points": 1,
+			"categories": [
+				"Knowledge",
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "46d54942-1e2d-4aee-bacf-2af55461e0f3",
+			"name": "Hiking",
+			"reference": "B200",
+			"difficulty": "ht/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "eff2e66b-250b-4fc2-bae8-1ebade5ce379",
+			"name": "History",
+			"reference": "B200",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f2d02c44-4754-4cbb-b364-40ec16fc1523",
+			"name": "Hobby Skill",
+			"reference": "B200,MA57",
+			"specialization": "@Mental Hobby@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "79a015e9-8483-4b0a-a298-54ca3a4ce480",
+			"name": "Hobby Skill",
+			"reference": "B200,MA57",
+			"specialization": "@Physical Hobby@",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3834da8b-6072-47fa-af22-d9e5bee6dd42",
+			"name": "Holdout",
+			"reference": "B200",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "540c335d-f30b-431f-90f0-67bb8a83deb3",
+			"name": "Horse Archery",
+			"reference": "B231,MA74",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Bow",
+				"modifier": -4
+			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "riding"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Animal",
+				"Combat/Weapon",
+				"Ranged Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6e190e34-be54-4075-affc-5659fd3468c3",
+			"name": "Hypnotism",
+			"reference": "B201",
+			"difficulty": "iq/h",
+			"points": 1,
+			"categories": [
+				"Medical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "1e653eed-8c12-40e4-a8f3-93529e599809",
+			"name": "Immovable Stance",
+			"reference": "B201",
+			"difficulty": "dx/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "b4150f32-7e28-4ab4-835d-29bcd5f49574",
+			"name": "Impersonate",
+			"reference": "B233",
+			"difficulty": "a",
+			"points": 1,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Mimicry",
+				"specialization": "Speech",
+				"modifier": -3
+			},
+			"categories": [
+				"Arts/Entertainment",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7f24d8a4-0d58-41ca-b60e-1c752b76f5aa",
+			"name": "Innate Attack",
+			"reference": "B201",
+			"specialization": "Beam",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Innate Attack",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "0af6470c-e5bc-4f1c-97a2-ef16b6e0e1ad",
+			"name": "Innate Attack",
+			"reference": "B201",
+			"specialization": "Breath",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Innate Attack",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "47015235-b22e-487f-9492-b805dbd12552",
+			"name": "Innate Attack",
+			"reference": "B201",
+			"specialization": "Gaze",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Innate Attack",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "db8c0f38-db9c-4a16-989f-a2fb0b452fdf",
+			"name": "Innate Attack",
+			"reference": "B201",
+			"specialization": "Projectile",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Innate Attack",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "89e6090f-a365-4fec-8f46-80dae9b2ed5d",
+			"name": "Interrogation",
+			"reference": "B202",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Intimidation",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "521b9bc4-abf9-44b1-b19c-564f3f3ea5f4",
+			"name": "Intimidation",
+			"reference": "B202",
+			"difficulty": "will/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c3fd970b-aa5f-4a74-ba48-7f5688448cc1",
+			"name": "Invisibility Art",
+			"reference": "B202",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "stealth"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 14
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "hypnotism"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 14
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ab6c4cfc-b652-4eb0-96ba-0ec7a7439286",
+			"name": "Jeweler",
+			"reference": "B203",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"specialization": "Copper",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"specialization": "Lead & Tin",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "bdecf858-9161-4da2-bc7e-271e0715ab41",
+			"name": "Jumping",
+			"reference": "B203,MA57",
+			"difficulty": "dx/e",
+			"points": 1,
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ec3654de-a71f-4549-826f-285ed24a97af",
+			"name": "Kiai",
+			"reference": "B203,MA58",
+			"difficulty": "ht/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "8aa6cb7d-2c2e-403c-b93b-3cb7eaa62088",
+			"name": "Kicking",
+			"reference": "B231,MA75",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "d74faaf4-4fc4-4e83-9861-9506076bf074",
+			"name": "Knee Strike",
+			"reference": "B232,MA76",
+			"difficulty": "a",
+			"points": 1,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -1
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "660526e2-5bf1-4fe5-a102-e601b8937a69",
+			"name": "Knife",
+			"reference": "B208",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "08ff9533-785a-4335-a837-a0e3f8da7747",
+			"name": "Knot-Tying",
+			"reference": "B203,MA58",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Climbing",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Everyman"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3c0d6650-b31b-4b12-b4af-bf71f986ba5c",
+			"name": "Lance",
+			"reference": "B204",
+			"difficulty": "dx/a",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "riding"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Spear",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f77d5864-22cd-4693-b7a2-a095f9303712",
+			"name": "Law",
+			"reference": "B204",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business",
+				"Police",
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cab6d914-b158-46fb-a54d-da482da49571",
+			"name": "Leadership",
+			"reference": "B204",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Military",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "9363ddec-e781-477b-9a52-7c8e927c92c8",
+			"name": "Leatherworking",
+			"reference": "B205",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "a1211650-6b41-4e65-b203-529d711c663a",
+			"name": "Lifesaving",
+			"reference": "B233",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Swimming",
+				"modifier": -5
+			},
+			"categories": [
+				"Athletic",
+				"Outdoor/Exploration",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "87b3f71a-5546-441e-adb3-a723ebd32ce0",
+			"name": "Lifting",
+			"reference": "B205",
+			"difficulty": "ht/a",
+			"points": 1,
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ebb1a21d-3a2c-4a2c-8630-e8031939443b",
+			"name": "Light Walk",
+			"reference": "B205,MA58",
+			"difficulty": "dx/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "stealth"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 14
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "acrobatics"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 14
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "52e81ac8-5c98-4c95-9822-18976f04fd8f",
+			"name": "Linguistics",
+			"reference": "B205",
+			"difficulty": "iq/h",
+			"points": 1,
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8d94fca3-0f9b-4c20-b698-fe92d4397167",
+			"name": "Lip Reading",
+			"reference": "B205",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -10
+				}
+			],
+			"categories": [
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c2b9fa34-1a56-407e-b0e6-b01a602451a8",
+			"name": "Literature",
+			"reference": "B205",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Scholarly",
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c573acfc-0748-461c-afdb-8884bb458877",
+			"name": "Lockpicking",
+			"reference": "B206",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy",
+				"Technical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "88b10e64-4ae9-44a9-80e6-caa5cc7c6315",
+			"name": "Main-Gauche",
+			"reference": "B208,MA58",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Jitte/Sai",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Knife",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "19067b62-ae49-4171-be7d-926290e7972c",
+			"name": "Makeup",
+			"reference": "B206",
+			"tech_level": "",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Disguise",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "485ed75c-5f37-4fe7-a4a0-b97a3959fc07",
+			"name": "Market Analysis",
+			"reference": "B207",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Economics",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Business"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e8dd8539-3501-41f5-8e9e-1f0d2bb749ae",
+			"name": "Masonry",
+			"reference": "B207",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "50ecf23b-d616-4012-99ca-29a4d0392dae",
+			"name": "Meditation",
+			"reference": "B207",
+			"difficulty": "will/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Autohypnosis",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8f1b6f00-6068-45aa-9305-214aba6ede48",
+			"name": "Mental Strength",
+			"reference": "B209",
+			"difficulty": "will/e",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8540a696-d215-41c6-9d82-ed8b1efc4158",
+			"name": "Merchant",
+			"reference": "B209",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Finance",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Market Analysis",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "5124f4b0-e4e5-4dbc-b9ae-31a69b01dd98",
+			"name": "Mimicry",
+			"reference": "B210",
+			"specialization": "Animal Sounds",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mimicry",
+					"specialization": "Bird Calls",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Animal",
+				"Arts/Entertainment",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f7c11d5a-8d90-488d-914b-45d44d9a7a84",
+			"name": "Mimicry",
+			"reference": "B210",
+			"specialization": "Bird Calls",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Mimicry",
+					"specialization": "Animal Sounds",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Animal",
+				"Arts/Entertainment",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "34c6ff77-98ab-4082-acd2-9229c1de101d",
+			"name": "Mimicry",
+			"reference": "B210",
+			"specialization": "Speech",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Linguistics",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f73bcf6e-81ce-40d9-91b1-389eb031e9b8",
+			"name": "Mind Block",
+			"reference": "B210",
+			"difficulty": "will/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "will",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Meditation",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "1d00bd19-bd55-4f3e-ae9b-f4fa8f79aec5",
+			"name": "Mount",
+			"reference": "B210",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Animal",
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b46f5748-4e73-4163-af7f-550191130657",
+			"name": "Musical Composition",
+			"reference": "B210",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Musical Instrument",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Poetry",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4a60af9c-3e5c-4ddb-9d51-8bce3793acc4",
+			"name": "Musical Influence",
+			"reference": "B210",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "singing"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							},
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "musical instrument"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 12
+								}
+							}
+						]
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Talent (Musical Ability)"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "361489b6-d154-44d5-8d9d-2a55cded532f",
+			"name": "Musical Instrument",
+			"reference": "B211",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "511d76a6-6910-4b8d-ac0d-19fe11ec9b15",
+			"name": "Navigation",
+			"reference": "B211",
+			"specialization": "@Environment@",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Astronomy",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Land",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Sea",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration",
+				"Technical",
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d8f0ac36-fd5b-4117-8988-ac1c90d49d69",
+			"name": "Navigation",
+			"reference": "B211",
+			"specialization": "Land",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Cartography",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Mathematics",
+					"specialization": "Surveying",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Air",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Sea",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration",
+				"Technical",
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "5662f436-3ac9-47f1-ad3b-68585ff3c381",
+			"name": "Navigation",
+			"reference": "B211",
+			"specialization": "Sea",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Astronomy",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Air",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Navigation",
+					"specialization": "Land",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration",
+				"Technical",
+				"Vehicle"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "2f564f1f-a63e-437d-8b9f-b76a113071e3",
+			"name": "Neck Snap",
+			"reference": "B232,MA77",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 3,
+			"default": {
+				"type": "st",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "76a3ef67-cbdb-413b-999c-ddec64d8fc66",
+			"name": "Net",
+			"reference": "B211",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Cloak",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "efdd5271-2e92-450c-85cb-44084539a419",
+			"name": "Observation",
+			"reference": "B211",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Shadowing",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Military",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2ddce67e-4566-4a7c-b3a9-7410effd8429",
+			"name": "Occultism",
+			"reference": "B212",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "5753fcb1-7cc5-4263-a616-61d67afc4eca",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "adfdaf39-b3f2-4db2-af69-f867903c60c6",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Knife",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "18d4c0fd-a433-4735-9b19-3dcdb2183f49",
+			"name": "Off-Hand Weapon Training",
+			"reference": "B232",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword",
+				"modifier": -4
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3b098937-fb70-4e48-b3bc-95a9b4aa6c2b",
+			"name": "Packing",
+			"reference": "B212",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"specialization": "Equines",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2803a0f4-2db6-4b3c-afe4-1f3629c172f8",
+			"name": "Panhandling",
+			"reference": "B212",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Fast-Talk",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Public Speaking",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "676d74e0-9da9-4f50-90b7-452f6a7a1ce3",
+			"name": "Parry Missile-Weapons",
+			"reference": "B212",
+			"difficulty": "dx/h",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a1a80277-8d57-4382-bc66-8845de750f89",
+			"name": "Performance",
+			"reference": "B212",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Public Speaking",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "20e64dfa-d91f-41a0-8f02-98b8bda8335f",
+			"name": "Persuade",
+			"reference": "B191",
+			"difficulty": "will/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "charisma"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "public speaking"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c361783a-69a0-4b0c-b4a6-01ccb8a38b5b",
+			"name": "Pharmacy",
+			"reference": "B213",
+			"specialization": "Herbal",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "naturalist"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Biology",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Herb Lore",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Design/Invention",
+				"Medical",
+				"Plant"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3b8fa4f2-1337-437d-9371-e7cea7cb7896",
+			"name": "Philosophy",
+			"reference": "B213",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b024a0e1-b777-48a9-9224-3a2b51a5ef53",
+			"name": "Physician",
+			"reference": "B213",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -7
+				},
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -11
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Medical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6a2fe8c1-a2ca-4a5c-864d-dd1f1d639ac1",
+			"name": "Pickpocket",
+			"reference": "B213",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Filch",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Sleight of Hand",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "19f18775-3917-4fe1-9e0d-98ab202c03af",
+			"name": "Poetry",
+			"reference": "B214",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Writing",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6406a833-5e9a-4ba0-9c04-f1d532ff53dc",
+			"name": "Poisons",
+			"reference": "B214",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Chemistry",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Pharmacy",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Medical",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "47b283ef-4acf-4660-8afb-fc1c9d796144",
+			"name": "Polearm",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Spear",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Staff",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "96853866-b9a2-4449-a7a8-820a8467ff90",
+			"name": "Politics",
+			"reference": "B215",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Diplomacy",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "88be7a3e-dd0d-42a1-a4fe-2c75392cacec",
+			"name": "Power Blow",
+			"reference": "B215,MA58",
+			"difficulty": "will/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "948b1929-aa0c-4beb-9984-e0a01a002780",
+			"name": "Pressure Points",
+			"reference": "B215,MA58",
+			"difficulty": "iq/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "124af127-f2a6-494d-b99d-72d8156c098b",
+			"name": "Pressure Secrets",
+			"reference": "B215,MA59",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "pressure points"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 16
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "0103c417-8660-419d-b611-88b985be9a32",
+			"name": "Professional Skill",
+			"reference": "B215",
+			"specialization": "@Mental Skill@",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "1d6648d5-2de8-40f8-ab2b-09a05450d724",
+			"name": "Professional Skill",
+			"reference": "B215",
+			"specialization": "@Physical Skill@",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "5cabe95c-28a4-4519-9d9e-8a61a2e3025f",
+			"name": "Propaganda",
+			"reference": "B216",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Merchant",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Business",
+				"Military",
+				"Social",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e034b7f3-beb3-4733-9a07-043a55413086",
+			"name": "Prospecting",
+			"reference": "B216",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Geology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "60d8a775-0693-40e7-a148-98ee048a4ff7",
+			"name": "Psychology",
+			"reference": "B216",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Sociology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "59aa1557-ca32-44ce-a579-3566cb2331c9",
+			"name": "Public Speaking",
+			"reference": "B216",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Acting",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Politics",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Business",
+				"Scholarly",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3c7d1a45-0e66-49c7-b098-c1244e930c4b",
+			"name": "Push",
+			"reference": "B216,MA59",
+			"difficulty": "dx/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a293420c-fa57-4f7a-bb0c-37cf472c135f",
+			"name": "Rapier",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cf636556-d949-4b08-b840-adcf959c92f2",
+			"name": "Religious Ritual",
+			"reference": "B217",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Ritual Magic",
+					"specialization": "@Specialty@",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Theology",
+					"specialization": "@Specialty@",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8015257a-75cd-4f9c-85c4-77b49b464807",
+			"name": "Research",
+			"reference": "B217",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 8
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Computer Operation"
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"when_tl": {
+							"compare": "at_most",
+							"qualifier": 4
+						},
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Native"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Accented)"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "Language"
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "Written (Broken)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Writing",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Scholarly",
+				"Spy"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "ce4519d3-2aaa-4ff2-8eb2-b242048bd08d",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "@Melee Weapon Skill@"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "776c0a63-f3e6-4a65-89a6-d570f69e0261",
+			"name": "Retain Weapon (@Ranged Weapon@)",
+			"reference": "B232,MA78",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "dx"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "61afd369-9488-4851-81bf-9ed3650327d2",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "56f6b7bf-b538-47a8-8eaf-e14eca9afba4",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "Knife"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "dace73dd-bfe0-42c8-b6f4-91e000708d3b",
+			"name": "Retain Weapon",
+			"reference": "B232,MA78",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 5,
+			"default": {
+				"type": "skill",
+				"name": "Shortsword"
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "28e7e38e-2620-4721-bc0a-1eed70653134",
+			"name": "Riding",
+			"reference": "B217",
+			"specialization": "@Specialty@",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"specialization": "@Specialty@",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Animal"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "223d22cb-0317-4974-861b-aad017a9ddea",
+			"name": "Ritual Magic",
+			"reference": "B218",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Ritual Magic",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "f43ad350-ce67-4b95-8f49-2a30c296ab59",
+			"name": "Rope Up",
+			"reference": "B233",
+			"difficulty": "a",
+			"points": 1,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Climbing",
+				"modifier": -2
+			},
+			"categories": [
+				"Athletic",
+				"Criminal/Street",
+				"Outdoor/Exploration",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "95fafd60-c891-4ef0-86ea-3b9c9cd5696a",
+			"name": "Running",
+			"reference": "B218",
+			"difficulty": "ht/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Athletic"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f5162eed-ce88-43b6-a1a3-d74fa4c720d2",
+			"name": "Saber",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2fa3232b-1353-4441-b2c5-ab82b4062341",
+			"name": "Savoir-Faire",
+			"reference": "B218,MA59",
+			"specialization": "@Social group@",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Games",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "0f06ccc9-2c34-498b-8a3a-8a076519cd52",
+			"name": "Scaling",
+			"reference": "B233",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Climbing",
+				"modifier": -3
+			},
+			"categories": [
+				"Athletic",
+				"Criminal/Street",
+				"Outdoor/Exploration",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "fd13109b-0591-49d8-bcd9-271f801b6f49",
+			"name": "Scrounging",
+			"reference": "B218",
+			"difficulty": "per/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "440eddf6-181a-4223-8d91-abf758ff6061",
+			"name": "Seamanship",
+			"reference": "B185",
+			"tech_level": "",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "c5bfbda6-12af-4aba-844c-f8262e0a916b",
+			"name": "Search",
+			"reference": "B219",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Criminology",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cdd9976a-037f-4e4d-9ce8-c314da9b630e",
+			"name": "Sewing",
+			"reference": "B219",
+			"tech_level": "",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft",
+				"Everyman"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "96a2ed75-c781-4a97-a759-381e15130dbf",
+			"name": "Sex Appeal",
+			"reference": "B219",
+			"difficulty": "ht/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "9dc753ac-b18b-4475-9877-d3ce0dbb870c",
+			"name": "Shadowing",
+			"reference": "B219",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Observation",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Stealth",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6887f862-1952-45e7-a223-54d8205360c5",
+			"name": "Shield",
+			"reference": "B220",
+			"specialization": "Buckler",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Shield",
+					"specialization": "Force",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "45643690-089d-492f-9148-a410e542470d",
+			"name": "Shield",
+			"reference": "B220",
+			"specialization": "Shield",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f0756132-ae5d-4fa4-ba2d-914af96a7eac",
+			"name": "Shiphandling",
+			"reference": "B220",
+			"specialization": "Ship",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "seamanship"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "navigation"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "sea"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "leadership"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Seamanship",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Large Powerboat",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Boating",
+					"specialization": "Sailboat",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "fc80cb31-ab7f-408a-a6c2-a58de4eed809",
+			"name": "Shortsword",
+			"reference": "B209",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Jitte/Sai",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Knife",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Smallsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Tonfa",
+					"modifier": -3
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "37d73bd2-46ac-4138-8fa3-0dfc1894f883",
+			"name": "Singing",
+			"reference": "B220",
+			"difficulty": "ht/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e9a69115-1fe3-4ab6-823c-ece6397ab7d3",
+			"name": "Sleight of Hand",
+			"reference": "B221",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Filch",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Criminal/Street"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "57fc74a8-3dd1-445f-92c9-2cbb2ab64082",
+			"name": "Sling",
+			"reference": "B221",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "426348e1-601f-4fe6-bae9-132823de9577",
+			"name": "Slip Handcuffs",
+			"reference": "B233",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Escape",
+				"modifier": -5
+			},
+			"categories": [
+				"Criminal/Street",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d36c6da8-60d4-4e1d-af9a-3d5ee9bb7dde",
+			"name": "Smallsword",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Shortsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Main-Gauche",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Rapier",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Saber",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7eef7b90-8434-42e3-952e-82bf90002a65",
+			"name": "Smith",
+			"reference": "B221",
+			"specialization": "Copper",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Jeweler",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "9c2c54a1-39d6-4c2e-bda4-0565a09ac78b",
+			"name": "Smith",
+			"reference": "B221",
+			"specialization": "Iron",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "48432735-f356-407e-aef3-79946f65243e",
+			"name": "Smith",
+			"reference": "B221",
+			"specialization": "Lead & Tin",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Jeweler",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Smith",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Craft"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7ee285aa-7c21-4fbf-9cef-386ac3afc738",
+			"name": "Smuggling",
+			"reference": "B221",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "29bffcea-4ec6-47b0-b75d-df02c5714791",
+			"name": "Sociology",
+			"reference": "B221",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Anthropology",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Psychology",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "fa5794e1-2904-4d29-93a8-40d1754e0efc",
+			"name": "Soldier",
+			"reference": "B221",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Military"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d7346e9e-63aa-4083-b3bf-feb2c57ccf40",
+			"name": "Spear",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Staff",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "46f19a0d-a8f8-48de-bbaa-725b4a78edfd",
+			"name": "Spear Thrower",
+			"reference": "B222",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Thrown Weapon",
+					"specialization": "Spear",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4a2a1c57-405a-4ad7-9fd3-ce50da251b79",
+			"name": "Speed-Reading",
+			"reference": "B222",
+			"difficulty": "iq/a",
+			"points": 1,
+			"categories": [
+				"Scholarly"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7e73df4d-a8e4-4efb-9def-81188bcc35ec",
+			"name": "Staff",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Spear",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "5d2b6a0c-a005-4105-97fd-711e75766d40",
+			"name": "Stage Combat",
+			"reference": "B222,MA59",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Performance",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "504443b0-ff15-40b1-a056-abf0d68c76bc",
+			"name": "Stealth",
+			"reference": "B222",
+			"encumbrance_penalty_multiplier": 1,
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Spy"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "61ff7319-27df-4afe-8b64-3d61f44bfd20",
+			"name": "Strategy",
+			"reference": "B222",
+			"specialization": "Land",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Intelligence Analysis",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Tactics",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Strategy",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Military"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e15646a3-699e-443c-aa53-ab753acca82f",
+			"name": "Strategy",
+			"reference": "B222",
+			"specialization": "Naval",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Intelligence Analysis",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Tactics",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Strategy",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Military"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "cd633a89-7cb9-48bb-acd5-a3584cd808df",
+			"name": "Streetwise",
+			"reference": "B223",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "25cf6b3d-8b9f-4df5-b1c7-03b7d57da757",
+			"name": "Suggest",
+			"reference": "B191",
+			"difficulty": "will/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "persuade"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "public speaking"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 12
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "charisma"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "908ce271-7750-465e-b61c-a0da87f40b57",
+			"name": "Surgery",
+			"reference": "B223",
+			"tech_level": "",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "first aid"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "physician"
+						}
+					}
+				]
+			},
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "First Aid",
+					"modifier": -12
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Physiology",
+					"modifier": -8
+				},
+				{
+					"type": "skill",
+					"name": "Veterinary",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Medical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "44710513-95d2-4b4c-9cb2-825f82502820",
+			"name": "Survival",
+			"reference": "B223",
+			"specialization": "@Environment@",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Bank",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Deep Ocean Vent",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Fresh-Water Lake",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Open Ocean",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Reef",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "River/Stream",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Survival",
+					"specialization": "Tropical Lagoon",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "111780fd-1429-4f9c-8783-2dd4066a923d",
+			"name": "Sway Emotions",
+			"reference": "B192",
+			"difficulty": "will/h",
+			"points": 1,
+			"categories": [
+				"Social"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "b0a3c14c-0794-47de-86d9-da4ad1895db1",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "@Two-Handed Weapon Skill@",
+				"modifier": -3
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "3cf6437d-5ee6-4b05-b7a1-ecf31ce4d1ca",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Polearm",
+				"modifier": -3
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "94d37806-5de2-43aa-aa85-211604660c8f",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Spear",
+				"modifier": -3
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "241f9644-8b47-441e-9a7e-5afe58d3e41b",
+			"name": "Sweep",
+			"reference": "B232,MA81",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Staff",
+				"modifier": -3
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "f7daac6a-dff5-4ac8-b2cb-2fbbd07e42d0",
+			"name": "Sweeping Kick",
+			"reference": "B232,MA81",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "@Unarmed Combat Skill@",
+				"modifier": -3
+			},
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "14e9ca26-7a50-4861-9aa5-34a17d727aec",
+			"name": "Swimming",
+			"reference": "B224",
+			"encumbrance_penalty_multiplier": 2,
+			"difficulty": "ht/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "ht",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "0f751f38-76da-4928-8442-a6a071ff53d5",
+			"name": "Symbol Drawing",
+			"reference": "B224",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "962b6f07-2448-4c6a-b2ce-3f91a58f14b8",
+			"name": "Tactics",
+			"reference": "B224,MA60",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Strategy",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Military",
+				"Police"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "89cf77b2-214a-4598-9c8f-3f152371d2e3",
+			"name": "Teaching",
+			"reference": "B224",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Scholarly",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4afba8cd-42de-4500-b2e2-a9510b8c9283",
+			"name": "Teamster",
+			"reference": "B225",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"specialization": "@Specialty@",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Riding",
+					"specialization": "@Specialty@",
+					"modifier": -2
+				},
+				{
+					"type": "skill",
+					"name": "Teamster",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Animal",
+				"Vehicle"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "f31f33b1-d556-4c40-b1c5-2b29bba1bdc0",
+			"name": "Thaumatology",
+			"reference": "B225",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -7
+				}
+			],
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "784b63bd-de2c-433c-a1fc-d66db904263e",
+			"name": "Theology",
+			"reference": "B226",
+			"specialization": "@Specialty@",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Religious Ritual",
+					"specialization": "@Specialty@",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b7229631-0366-4b39-b1aa-233adaf31fbe",
+			"name": "Throwing",
+			"reference": "B226",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Dropping",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Athletic",
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "639d1912-5a1e-40e8-b491-10a8d938a532",
+			"name": "Throwing Art",
+			"reference": "B226,MA60",
+			"difficulty": "dx/h",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "weapon master"
+						}
+					},
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "trained by a master"
+						}
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "750c5df7-0224-4e8c-a6c7-090942d4bbd9",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "@Specialty@",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "09590a07-49c8-43c2-84dc-fcd74eb424e6",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Axe/Mace",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "3218fa0a-c64c-42b0-9fa2-b6fa7fa3b64a",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Dart",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Throwing",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "336cb98e-9127-4ab9-a051-b43d553d78b1",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Harpoon",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Thrown Weapon",
+					"specialization": "Spear",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "99db8751-3568-4053-bf00-9f03ffe226e2",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Knife",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "2d293a6f-b18a-4ddf-9510-1ac68846bfa7",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Shuriken",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Throwing",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d6b83752-abc1-45df-9a8d-52fb9d3276f6",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Spear",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Spear Thrower",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Thrown Weapon",
+					"specialization": "Harpoon",
+					"modifier": -2
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "6fb68eea-94fc-461c-9df6-9c9754fd75ab",
+			"name": "Thrown Weapon",
+			"reference": "B226",
+			"specialization": "Stick",
+			"difficulty": "dx/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Ranged Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4cb4ad28-074f-4b3d-8e9e-c0b490a9e29b",
+			"name": "Tracking",
+			"reference": "B226",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Naturalist",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a6fa2998-1d76-4290-a1c7-3df1540df482",
+			"name": "Traps",
+			"reference": "B226",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Lockpicking",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Military"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a308423c-1693-4138-b084-61ba96c80546",
+			"name": "Two-Handed Axe/Mace",
+			"reference": "B208",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Axe/Mace",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Polearm",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Flail",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "44d06886-93ac-4386-89ea-74b8e6f4a44d",
+			"name": "Two-Handed Flail",
+			"reference": "B208",
+			"difficulty": "dx/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Flail",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Kusari",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Two-Handed Axe/Mace",
+					"modifier": -4
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "85898010-7a17-4fbd-bd68-d209f99c43b2",
+			"name": "Two-Handed Sword",
+			"reference": "B209",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Broadsword",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Force Sword",
+					"modifier": -4
+				},
+				{
+					"type": "dx",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d8093b69-b51f-40d8-986f-8a7432cb5f9e",
+			"name": "Urban Survival",
+			"reference": "B228",
+			"difficulty": "per/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "per",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Criminal/Street",
+				"Police"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "b8d264dc-8799-4c17-aac5-0b4a58b48c48",
+			"name": "Ventriloquism",
+			"reference": "B228",
+			"difficulty": "iq/h",
+			"points": 1,
+			"categories": [
+				"Arts/Entertainment"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "4b2f1c0d-cd80-4061-b9c0-a982f3c42a54",
+			"name": "Veterinary",
+			"reference": "B228",
+			"tech_level": "",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "skill",
+					"name": "Animal Handling",
+					"modifier": -6
+				},
+				{
+					"type": "skill",
+					"name": "Physician",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Surgery",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Animal",
+				"Medical"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "0d507f3c-b23e-45a6-a210-d6ce4dfbefee",
+			"name": "Weather Sense",
+			"reference": "B209",
+			"tech_level": "",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Everyman",
+				"Outdoor/Exploration"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8a1ae8cf-cbd2-42ea-ac44-8b7d1f0b4535",
+			"name": "Whip",
+			"reference": "B209",
+			"difficulty": "dx/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "dx",
+					"modifier": -5
+				},
+				{
+					"type": "skill",
+					"name": "Force Whip",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Kusari",
+					"modifier": -3
+				},
+				{
+					"type": "skill",
+					"name": "Monowire Whip",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "7ff788d4-5c07-4a4a-a188-6b02f4224739",
+			"name": "Whirlwind Attack",
+			"reference": "B232,MA89",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "@Melee Weapon Skill@",
+				"modifier": -5
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "1be94e75-47cf-4624-b3a7-a0cab887e460",
+			"name": "Whirlwind Attack",
+			"reference": "B232,MA89",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Boxing",
+				"modifier": -5
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "005c26a2-bad6-496d-86e7-06098b6fc0a7",
+			"name": "Whirlwind Attack",
+			"reference": "B232,MA89",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Broadsword",
+				"modifier": -5
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "5a850f9c-2b2a-4b61-ad1c-0e80fb80fe4a",
+			"name": "Whirlwind Attack",
+			"reference": "B232,MA89",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Staff",
+				"modifier": -5
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "f34a45b0-d2d0-44b5-a406-a95edc45c77b",
+			"name": "Whirlwind Attack",
+			"reference": "B232,MA89",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Two-Handed Sword",
+				"modifier": -5
+			},
+			"categories": [
+				"Cinematic Techniques",
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "technique",
+			"id": "8dc9955e-8f8e-4f57-869e-558f1a8180e7",
+			"name": "Work by Touch",
+			"reference": "B233",
+			"difficulty": "h",
+			"points": 2,
+			"limit": 0,
+			"default": {
+				"type": "skill",
+				"name": "Lockpicking",
+				"modifier": -5
+			},
+			"categories": [
+				"Criminal/Street",
+				"Technique"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "a4d7f8c5-9562-4476-a8d4-99e1e0b71f56",
+			"name": "Wrestling",
+			"reference": "B228,MA61",
+			"difficulty": "dx/a",
+			"points": 1,
+			"categories": [
+				"Combat/Weapon",
+				"Melee Combat"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "e06ad3d8-b4e4-4b9f-bfff-ebddc162b13a",
+			"name": "Writing",
+			"reference": "B228",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Arts/Entertainment",
+				"Scholarly"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "ace047f8-cf90-458d-b025-4c22990653d0",
+			"name": "Zen Archery",
+			"reference": "B228,MA61",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "meditation"
+						}
+					},
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "bow"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 18
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "starts_with",
+									"qualifier": "weapon master"
+								}
+							},
+							{
+								"type": "advantage_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "trained by a master"
+								}
+							}
+						]
+					}
+				]
+			},
+			"categories": [
+				"Esoteric"
+			]
+		}
+	]
+}
