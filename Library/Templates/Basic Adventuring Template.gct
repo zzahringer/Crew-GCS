@@ -1,0 +1,625 @@
+{
+	"type": "template",
+	"version": 2,
+	"id": "1954e6e9-ac4f-475b-b9d4-c0deb0c8e18f",
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "76c20d63-2292-4b37-864b-fac054eea506",
+			"name": "Adventuring",
+			"open": true,
+			"children": [
+				{
+					"type": "skill_container",
+					"id": "9daef65d-ad4c-46ba-9da0-30e1a4f5a3ad",
+					"name": "All of these",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "2f2f5c79-0783-4a48-a19f-e656994b4f48",
+							"name": "Climbing",
+							"reference": "B183",
+							"encumbrance_penalty_multiplier": 1,
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Athletic",
+								"Criminal/Street",
+								"Outdoor/Exploration"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "d10ced31-254a-4784-b7a3-90255a065879",
+							"name": "First Aid",
+							"reference": "B195",
+							"tech_level": "",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Esoteric Medicine"
+								},
+								{
+									"type": "skill",
+									"name": "Physician"
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Everyman",
+								"Medical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "27ed2757-348b-4e6d-bea7-84b8e6c86e25",
+							"name": "Hiking",
+							"reference": "B200",
+							"difficulty": "ht/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Athletic",
+								"Outdoor/Exploration"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "50795932-4dd3-4e66-bb04-87b457dc685e",
+							"name": "Riding",
+							"reference": "B217",
+							"specialization": "Horse",
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Animal Handling",
+									"specialization": "Horse",
+									"modifier": -3
+								}
+							],
+							"categories": [
+								"Animal"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "bb55b2e9-a386-46d1-adee-1cf5ea3ca0a7",
+							"name": "Stealth",
+							"reference": "B222",
+							"encumbrance_penalty_multiplier": 1,
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Criminal/Street",
+								"Police",
+								"Spy"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "0e9e3194-b57d-4de0-ad4a-849b5fe40dd9",
+					"name": "1 of these",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "1d01ccfb-700c-4842-99cb-9e6855b1cde6",
+							"name": "Savoir-Faire",
+							"reference": "B218,MA59",
+							"specialization": "@Social group@",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Games",
+									"modifier": -3
+								}
+							],
+							"categories": [
+								"Knowledge",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "25d53a17-76b1-44fb-9fa3-cb9430d0da64",
+							"name": "Streetwise",
+							"reference": "B223",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Criminal/Street",
+								"Police",
+								"Social"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "1aaafc65-3e8a-4164-8c33-9f72906f0380",
+					"name": "1 of these",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "46fc0546-97cb-4469-a7c9-a5bf060e7694",
+							"name": "Observation",
+							"reference": "B211",
+							"difficulty": "per/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shadowing",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Criminal/Street",
+								"Military",
+								"Police",
+								"Spy"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "561192fb-4117-4ad0-a7c9-ebe89d691fe5",
+							"name": "Scrounging",
+							"reference": "B218",
+							"difficulty": "per/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Criminal/Street"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "3c932f0f-84a7-4c52-a2c2-39f5af694af2",
+							"name": "Search",
+							"reference": "B219",
+							"difficulty": "per/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Criminology",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Police",
+								"Spy"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "skill_container",
+			"id": "34499ed4-27f9-457e-8824-f9de0c852e04",
+			"name": "Social Skills (Pick 1)",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "3816de6f-e063-4306-9d85-b8fc5781e395",
+					"name": "Carousing",
+					"reference": "B183",
+					"difficulty": "ht/e",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Criminal/Street",
+						"Social"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "8b905993-60ee-4fab-b47f-05152429ac33",
+					"name": "Diplomacy",
+					"reference": "B187",
+					"difficulty": "iq/h",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Politics",
+							"modifier": -6
+						}
+					],
+					"categories": [
+						"Business",
+						"Police",
+						"Social"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "c721775d-f482-4a7a-a545-ba269d76c38c",
+					"name": "Fast-Talk",
+					"reference": "B195",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Acting",
+							"modifier": -5
+						}
+					],
+					"categories": [
+						"Criminal/Street",
+						"Social",
+						"Spy"
+					]
+				},
+				{
+					"type": "skill",
+					"id": "f89f1539-8d48-40e7-be84-bf07ed5a4b1c",
+					"name": "Interrogation",
+					"reference": "B202",
+					"difficulty": "iq/a",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Intimidation",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Psychology",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Military",
+						"Police",
+						"Spy"
+					]
+				}
+			]
+		},
+		{
+			"type": "skill_container",
+			"id": "4b23388c-dd34-4c9a-be00-279675436731",
+			"name": "Combat",
+			"open": true,
+			"children": [
+				{
+					"type": "skill_container",
+					"id": "141acd10-c445-4d2f-953a-7eca4c8c7ff3",
+					"name": "1 of these",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "cf880ded-2062-4d3f-92c6-7e822d420cca",
+							"name": "Broadsword",
+							"reference": "B208",
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Sword",
+									"modifier": -4
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Melee Combat"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "e14a39bc-6df2-4d3c-83e7-e51fcc28f132",
+							"name": "Shortsword",
+							"reference": "B209",
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Melee Combat"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "761665c7-e298-4eb6-97d1-d8cd6bf43fa1",
+							"name": "Axe/Mace",
+							"reference": "B208",
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Melee Combat"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "986f31f9-f399-46a8-9e05-83f8208e4147",
+							"name": "Knife",
+							"reference": "B208",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Melee Combat"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "2d642061-ea71-4ed7-8322-f1c050449f6f",
+							"name": "Staff",
+							"reference": "B208",
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Spear",
+									"modifier": -2
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Melee Combat"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "628de31f-c8b3-46fa-b274-bc7e7002c916",
+					"name": "1 of these",
+					"open": true,
+					"children": [
+						{
+							"type": "skill",
+							"id": "652ee7f9-b124-49ca-b87a-a381506daaf8",
+							"name": "Sling",
+							"reference": "B221",
+							"difficulty": "dx/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -6
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Ranged Combat"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "1cbdc7b8-957c-487d-9817-d7eb1504f819",
+							"name": "Bow",
+							"reference": "B182",
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Ranged Combat"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "a5650cef-9e88-4ab8-8a79-c514353ee1bb",
+							"name": "Wrestling",
+							"reference": "B228,MA61",
+							"difficulty": "dx/a",
+							"points": 1,
+							"categories": [
+								"Combat/Weapon",
+								"Melee Combat"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
